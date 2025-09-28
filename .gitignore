@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env*
+.ipynb_checkpoints/
+
+# Logs & temp
+*.log
+*.tmp
+tmp/
+outputs/
+logs/
+wandb/
+
+# Data / datasets
+data/
+datasets/
+*.npy
+*.npz
+*.pkl
+*.csv.gz
+
+# Models / checkpoints (很容易>100MB)
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.h5
+
+# Archives / media（也很大）
+*.zip
+*.tar
+*.tar.*
+*.gz
+*.xz
+*.7z
+*.mp4
+*.mkv
+
+# Caches（HF、pip等）
+.cache/
+**/.cache/
+huggingface/
+**/huggingface/
+hf_cache/
+**/hf_cache/
