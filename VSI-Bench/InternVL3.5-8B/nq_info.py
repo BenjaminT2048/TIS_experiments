@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import os
 import re
 import json
@@ -14,28 +11,32 @@ from tqdm import tqdm
 import torch
 from transformers import AutoModel, AutoTokenizer
 
+from mra_eval import (
+    parse_number, accumulate_mra_stats, evaluate_numeric_pair
+)
 
 # ----------------------------
 # Prompting for rel-direction (INFO-ONLY)
 # ----------------------------
 REL_DIR_SYSTEM_INSTR = (
     "Rules:\n"
-    "1) Read the question and options (A/B/C/D).\n"
+    "1) Read the question.\n"
     "2) Assume a local coordinate system exactly as described in the question.\n"
     "3) Do NOT show any reasoning or explanation.\n"
-    "4) On the LAST line, output exactly one letter in [A,B,C,D] with no extra text."
+    "4) On the LAST line, output exactly one number with no extra text."
 )
+
 # REL_DIR_SYSTEM_INSTR = (
 #     "Rules:\n"
-#     "1) Read the question and options (A/B/C/D).\n"
+#     "1) Read the question.\n"
 #     "2) Assume a local coordinate system exactly as described in the question.\n"
 #     "3) You are encourage to output your thinking process.\n"
-#     "4) On the LAST line, output exactly one letter in [A,B,C,D] with no extra text."
+#     "4) On the LAST line, output exactly one number with no extra text."
 # )
 
-def build_rel_dir_prompt_info_only(
+
+def build_prompt(
     question: str,
-    options_text: str,
     obj2d_text: Optional[str] = None
 ) -> str:
     """
@@ -46,44 +47,46 @@ def build_rel_dir_prompt_info_only(
     obj2d_block = ""
     if obj2d_text:
         obj2d_block = (
-            "The JSON contains view-invariant 2D positions (in centimeters) of objects in this scene. For each label, the list contains all instances (length = count; each [x,y] is one instance).\n"
+            "The JSON contains view-invariant 2D positions (in meters) of objects in this scene. For each label, the list contains all instances (length = count; each [x,y] is one instance).\n"
             "<OBJECT_2D_INFO_JSON>\n"
             f"{obj2d_text}\n"
             "</OBJECT_2D_INFO_JSON>\n"
         )
 
-    prompt = (
-        f"{REL_DIR_SYSTEM_INSTR}\n"
-        f"{obj2d_block}\n"
-        f"Question: {question.strip()}\n"
-        f"Options: {options_text.strip()}\n"
-        f"Output exactly one of A, B, C, or D."
-    )
     # prompt = (
     #     f"{REL_DIR_SYSTEM_INSTR}\n"
     #     f"{obj2d_block}\n"
     #     f"Question: {question.strip()}\n"
-    #     f"Options: {options_text.strip()}\n"
-    #     f"You are encourage to output your thinking process. Output exactly one of A, B, C, or D in the last line."
+    #     f"You are encourage to output your thinking process. Output exactly one number as the answer in the last line."
     # )
+    prompt = (
+        f"{REL_DIR_SYSTEM_INSTR}\n"
+        f"{obj2d_block}\n"
+        f"Question: {question.strip()}\n"
+        f"Output exactly one number as the answer in the last line."
+    )
     return prompt
 
-CHOICE_RE = re.compile(r'\b([ABCD])\b', re.IGNORECASE)
+
+NUMBER_RE = re.compile(r'[-+]?(?:\d+(?:\.\d+)?|\.\d+)(?:[eE][-+]?\d+)?')
 
 def extract_choice_letter(text: str) -> Optional[str]:
     """
-    Try to get the final single-letter choice from model output.
-    Prefer the last line if it contains A/B/C/D; fallback to last match.
+    Try to get the final numeric answer from model output.
+    Accepts integers, decimals, or scientific notation.
+    Prefer the last non-empty line; fallback to the last match in the whole text.
+    Returns the matched number as a string.
     """
     if not isinstance(text, str):
         return None
     lines = [ln.strip() for ln in text.strip().splitlines() if ln.strip()]
     if lines:
-        m = CHOICE_RE.search(lines[-1])
+        m = NUMBER_RE.search(lines[-1])
         if m:
-            return m.group(1).upper()
-    ms = list(CHOICE_RE.finditer(text))
-    return ms[-1].group(1).upper() if ms else None
+            return m.group(0)
+    ms = list(NUMBER_RE.finditer(text))
+    return ms[-1].group(0) if ms else None
+
 
 
 # ----------------------------
@@ -138,7 +141,7 @@ def load_obj2d_as_prompt_text(
     def _round_xy(xy, nd):
         try:
             x, y = float(xy[0]), float(xy[1])
-            return [round(x, nd), round(y, nd)]
+            return [round(x, nd)*0.01, round(y, nd)*0.01]
         except Exception:
             return None
 
@@ -159,7 +162,7 @@ def load_obj2d_as_prompt_text(
             return None
 
         # 保留 <=2；删除 >2
-        filtered_labels = [lbl for lbl, c in counts.items() if c <= 10]
+        filtered_labels = [lbl for lbl, _ in counts.items()]
         filtered_labels.sort()
 
         if keep_top_labels is not None and keep_top_labels < len(filtered_labels):
@@ -220,11 +223,10 @@ def load_obj2d_as_prompt_text(
 # INFO-ONLY answering (no video)
 # ----------------------------
 @torch.no_grad()
-def answer_rel_direction_info_only(
+def answer(
     model,
     tokenizer,
     question: str,
-    options_text: str,
     input_size: int = 448,
     gen_cfg: Optional[Dict] = None,
     device: str = "cuda",
@@ -236,22 +238,17 @@ def answer_rel_direction_info_only(
     if gen_cfg is None:
         gen_cfg = dict(max_new_tokens=1024, do_sample=False, temperature=0.0)
 
-    # 1 blank image as placeholder
-    pixel_values = torch.zeros((1, 3, input_size, input_size), dtype=torch.bfloat16, device=device)
-    num_patches_list = [1]  # exactly one placeholder image
 
-    prompt = build_rel_dir_prompt_info_only(
+    prompt = build_prompt(
         question=question,
-        options_text=options_text,
         obj2d_text=obj2d_text
     )
 
     response = model.chat(
         tokenizer,
-        pixel_values,
+        None,
         prompt,
         gen_cfg,
-        num_patches_list=num_patches_list,
     )
     pred_letter = extract_choice_letter(response)
     return {
@@ -273,9 +270,7 @@ def main():
     ap.add_argument("--limit", type=int, default=0, help="limit number of samples (0 = all)")
     ap.add_argument("--out", type=str, required=True)
     ap.add_argument("--qtype", type=str, required=True)
-    ap.add_argument("--obj2d_dir", type=str, default="ARKitScenes/2D_annotation",
-                    help="Directory containing per-scene JSON with view-invariant 2D positions; "
-                         "filenames start with scene_name (e.g., '41069025.json' or '41069025_annotation.json').")
+    ap.add_argument("--obj2d_dir", type=str, default="ARKitScenes/2D_annotation")
     ap.add_argument("--obj2d_max_chars", type=int, default=8000,
                     help="Max characters of object-2D JSON to inject into prompt (will be compacted/truncated safely).")
     args = ap.parse_args()
@@ -309,6 +304,7 @@ def main():
 
     n_correct = 0
     n_total = 0
+    relerrs = []
 
     with open(args.out, "a", encoding="utf-8") as fout:
         for _, row in tqdm(df.iterrows(), total=len(df)):
@@ -329,24 +325,23 @@ def main():
                     obj2d_text = None
 
             q = str(row["question"])
-            options_text = str(row.get("options", ""))
             gt = str(row.get("ground_truth", "")).strip()
 
 
-            out = answer_rel_direction_info_only(
+            out = answer(
                 model, tokenizer,
                 question=q,
-                options_text=options_text,
                 input_size=args.input_size,
                 gen_cfg=dict(max_new_tokens=1024, do_sample=False, temperature=0.0),
                 device=device,
                 obj2d_text=obj2d_text
             )
             pred = out["predicted_letter"]
-            correct = (pred == gt) if gt in {"A", "B", "C", "D"} and pred is not None else None
-            n_total += 1
-            if correct is True:
-                n_correct += 1
+
+            
+            pred_num, gt_num, relerr, sample_mra = evaluate_numeric_pair(pred, gt)
+            if relerr is not None:
+                relerrs.append(relerr)
 
             record = {
                 "id": sid,
@@ -354,24 +349,29 @@ def main():
                 "scene_name": scene_name,
                 "question_type": row["question_type"],
                 "question": q,
-                "options": options_text,
                 "ground_truth": gt,
                 "predicted_answer": pred,
-                "correct": correct,
+                "relative_error": relerr,
+                "sample_mra": sample_mra,
                 "prompt": out["prompt"],
                 "raw_response": out["raw_response"],
                 "obj2d_path": obj2d_path,
+                "obj2d_in_prompt": bool(obj2d_text),
             }
             fout.write(json.dumps(record, ensure_ascii=False) + "\n")
 
-    if n_total > 0:
-        acc = n_correct / n_total
-        print(f"Done. Evaluated {n_total} with GT letters. Accuracy: {n_correct}/{n_total} = {acc:.3f}")
+    stats = accumulate_mra_stats(relerrs)
+    if stats.n_valid > 0:
+        print(f"[NA] MRA on {stats.n_valid} numeric samples: {stats.mean_mra:.4f}")
+        per_th = ", ".join([f"θ={t:.2f}:{a:.3f}" for t, a in stats.per_threshold_acc.items()])
+        print(f"[NA] Per-threshold accuracy -> {per_th}")
     else:
-        print("Done. No samples with letter GT were evaluated.")
+        print("[NA] No numeric samples (or unparsable); MRA not computed.")
+
 
     from datetime import datetime
     import math
+    from mra_eval import MRA_THRESHOLDS  # 如果你把阈值放在独立文件
 
     def _clean_float(x):
         if x is None:
@@ -383,7 +383,7 @@ def main():
             return xf
         except Exception:
             return None
-        
+    
     summary_rec = {
         "type": "summary",
         "timestamp_utc": datetime.utcnow().isoformat() + "Z",
@@ -391,18 +391,44 @@ def main():
         "dataset": "arkitscenes",
         "qtypes": sorted(df["question_type"].astype(str).unique().tolist()),
         "metrics": {
-            "EM": {
+            "mc": {
                 "n_total": n_total,
                 "n_correct": n_correct,
                 "accuracy": _clean_float(n_correct / n_total if n_total else None),
-            }
+            },
+            "na": {
+                "n_valid": int(len(relerrs)),
+                "mean_mra": _clean_float(stats.mean_mra if 'stats' in locals() else None),
+                "per_threshold_acc": {f"{t:.2f}": _clean_float(a) for t, a in (stats.per_threshold_acc.items() if 'stats' in locals() else {})},
+                "mean_relative_error": _clean_float(float(np.mean(relerrs)) if len(relerrs) else None),
+            },
         },
-        "args": vars(args)  # 记录本次运行配置，便于复现
+        "mra_thresholds": [float(t) for t in MRA_THRESHOLDS],
+        "args": vars(args),  # 记录本次运行配置，便于复现
     }
-        
+
+    summary_rec = {
+        "type": "summary",
+        "timestamp_utc": datetime.utcnow().isoformat() + "Z",
+        "file": args.out,
+        "dataset": "arkitscenes",
+        "qtypes": sorted(df["question_type"].astype(str).unique().tolist()),
+        "metrics": {
+            "nq": {
+                "n_valid": int(len(relerrs)),
+                "mean_mra": _clean_float(stats.mean_mra if 'stats' in locals() else None),
+                "per_threshold_acc": {f"{t:.2f}": _clean_float(a) for t, a in (stats.per_threshold_acc.items() if 'stats' in locals() else {})},
+                "mean_relative_error": _clean_float(float(np.mean(relerrs)) if len(relerrs) else None),
+            },
+        },
+        "mra_thresholds": [float(t) for t in MRA_THRESHOLDS],
+        "args": vars(args),  # 记录本次运行配置，便于复现
+    }
+
     with open(args.out, "a", encoding="utf-8") as fout:
         fout.write(json.dumps(summary_rec, ensure_ascii=False) + "\n")
-
+        
+    
 
 
 if __name__ == "__main__":
@@ -410,9 +436,4 @@ if __name__ == "__main__":
     main()
 
 
-# python VSI-Bench/InternVL3.5-8B/mcq_info.py --out VSI-Bench/InternVL3.5-8B/results/object_rel_direction/pure_info.json --qtype object_rel_direction
-# python VSI-Bench/InternVL3.5-8B/mcq_info.py --out VSI-Bench/InternVL3.5-8B/results/object_rel_direction/pure_info_cot.json --qtype object_rel_direction
-
-
-# python VSI-Bench/InternVL3.5-8B/mcq_info.py --out VSI-Bench/InternVL3.5-8B/results/object_rel_distance/pure_info.json --qtype object_rel_distance
-
+# python VSI-Bench/InternVL3.5-8B/nq_info.py --out VSI-Bench/InternVL3.5-8B/results/object_counting/pure_info.json --qtype object_counting

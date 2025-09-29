@@ -264,14 +264,14 @@ def answer_rel_direction_info_only(
 # ----------------------------
 def main():
     ap = argparse.ArgumentParser(description="Run InternVL2 INFO-ONLY on VSI-Bench object_rel_direction/distance (arkitscenes).")
-    ap.add_argument("--csv", type=str, default="/root/TIS/VSI-Bench/test-00000-of-00001.csv", help="Path to VSI-Bench CSV (converted from parquet).")
+    ap.add_argument("--csv", type=str, default="VSI-Bench/test-00000-of-00001.csv", help="Path to VSI-Bench CSV (converted from parquet).")
     ap.add_argument("--model_path", type=str, default="OpenGVLab/InternVL2-8B")
     ap.add_argument("--device", type=str, default="cuda")
     ap.add_argument("--input_size", type=int, default=448)
     ap.add_argument("--limit", type=int, default=0, help="limit number of samples (0 = all)")
     ap.add_argument("--out", type=str, required=True)
     ap.add_argument("--qtype", type=str, required=True)
-    ap.add_argument("--obj2d_dir", type=str, default="/root/TIS/ARKitScenes/2D_annotation",
+    ap.add_argument("--obj2d_dir", type=str, default="ARKitScenes/2D_annotation",
                     help="Directory containing per-scene JSON with view-invariant 2D positions; "
                          "filenames start with scene_name (e.g., '41069025.json' or '41069025_annotation.json').")
     ap.add_argument("--obj2d_max_chars", type=int, default=8000,
