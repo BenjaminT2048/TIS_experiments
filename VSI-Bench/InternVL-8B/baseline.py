@@ -510,3 +510,6 @@ if __name__ == "__main__":
 # -----------2------------
 # python VSI-Bench/InternVL-8B/baseline.py --out VSI-Bench/InternVL-8B/results/2/object_counting/baseline.json --qtype object_counting \
 # --model_path OpenGVLab/InternVL2-8B
+
+# python VSI-Bench/InternVL-8B/baseline.py --out VSI-Bench/InternVL-8B/results/2/route_planning/baseline.json --qtype route_planning \
+# --model_path OpenGVLab/InternVL2-8B

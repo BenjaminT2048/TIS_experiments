@@ -486,3 +486,20 @@ if __name__ == "__main__":
 
 # python VSI-Bench/InternVL-8B/image_info.py --out VSI-Bench/InternVL-8B/results/3.5/object_abs_distance/image_info.json --qtype object_abs_distance \
 # --model_path OpenGVLab/InternVL3_5-8B
+
+# python VSI-Bench/InternVL-8B/image_info.py --out VSI-Bench/InternVL-8B/results/3.5/object_counting/image_info.json --qtype object_counting \
+# --model_path OpenGVLab/InternVL3_5-8B
+
+# -----------2-----------
+
+# python VSI-Bench/InternVL-8B/image_info.py --out VSI-Bench/InternVL-8B/results/2/object_rel_direction/image_info.json --qtype object_rel_direction \
+# --model_path OpenGVLab/InternVL2-8B
+
+# python VSI-Bench/InternVL-8B/image_info.py --out VSI-Bench/InternVL-8B/results/2/object_rel_distance/image_info.json --qtype object_rel_distance \
+# --model_path OpenGVLab/InternVL2-8B
+
+# python VSI-Bench/InternVL-8B/image_info.py --out VSI-Bench/InternVL-8B/results/2/route_planning/image_info.json --qtype route_planning \
+# --model_path OpenGVLab/InternVL2-8B
+
+# python VSI-Bench/InternVL-8B/image_info.py --out VSI-Bench/InternVL-8B/results/2/object_counting/image_info.json --qtype object_counting \
+# --model_path OpenGVLab/InternVL2-8B

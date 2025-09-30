@@ -1,0 +1,12 @@
+numpy
+pandas
+tqdm
+torch         
+transformers>=4.44.2
+safetensors>=0.4.3
+sentencepiece
+accelerate>=0.33.0
+einops
+ninja
+timm
+flash-attn --no-build-isolation

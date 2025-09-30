@@ -538,3 +538,15 @@ if __name__ == "__main__":
 
 # python VSI-Bench/InternVL-8B/pure_info.py --out VSI-Bench/InternVL-8B/results/3.5/object_abs_distance/pure_info_cot.json --qtype object_abs_distance \
 # --model_path OpenGVLab/InternVL3_5-8B --cot True
+
+
+# -----------2-----------
+
+# python VSI-Bench/InternVL-8B/pure_info.py --out VSI-Bench/InternVL-8B/results/2/object_rel_direction/pure_info.json --qtype object_rel_direction \
+# --model_path OpenGVLab/InternVL2-8B
+
+# python VSI-Bench/InternVL-8B/pure_info.py --out VSI-Bench/InternVL-8B/results/2/object_rel_distance/pure_info.json --qtype object_rel_distance \
+# --model_path OpenGVLab/InternVL2-8B
+
+# python VSI-Bench/InternVL-8B/pure_info.py --out VSI-Bench/InternVL-8B/results/2/route_planning/pure_info.json --qtype route_planning \
+# --model_path OpenGVLab/InternVL2-8B
