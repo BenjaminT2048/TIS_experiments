@@ -1,0 +1,50 @@
+[
+    {
+        "label": "table",
+        "centroid_xyz": [
+            72.474,
+            68.521,
+            -149.164
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xyz": [
+            83.954,
+            126.298,
+            -191.211
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            6.532,
+            70.381,
+            -199.18
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            32.655,
+            66.771,
+            -123.042
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -73.007,
+            68.521,
+            54.487
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -283.22,
+            145.992,
+            -121.739
+        ]
+    }
+]

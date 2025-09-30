@@ -1,0 +1,114 @@
+[
+    {
+        "label": "oven",
+        "centroid_xyz": [
+            -87.641,
+            53.863,
+            -103.311
+        ]
+    },
+    {
+        "label": "stove",
+        "centroid_xyz": [
+            -87.592,
+            95.594,
+            -103.889
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -42.466,
+            62.17,
+            -100.229
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            19.425,
+            62.096,
+            -86.965
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            99.79,
+            62.24,
+            -87.694
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            151.454,
+            62.829,
+            -81.014
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xyz": [
+            -2.141,
+            94.723,
+            -84.06
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xyz": [
+            36.557,
+            94.71,
+            -80.807
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -69.283,
+            203.101,
+            -121.941
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            31.53,
+            201.601,
+            -96.921
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            124.372,
+            175.942,
+            -106.512
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            -29.838,
+            59.294,
+            83.088
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            34.972,
+            63.115,
+            88.107
+        ]
+    },
+    {
+        "label": "refrigerator",
+        "centroid_xyz": [
+            95.608,
+            114.669,
+            80.116
+        ]
+    }
+]

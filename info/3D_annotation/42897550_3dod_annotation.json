@@ -1,0 +1,42 @@
+[
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            9.341,
+            49.045,
+            219.904
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xyz": [
+            14.088,
+            89.123,
+            217.136
+        ]
+    },
+    {
+        "label": "toilet",
+        "centroid_xyz": [
+            29.793,
+            34.781,
+            152.714
+        ]
+    },
+    {
+        "label": "bathtub",
+        "centroid_xyz": [
+            116.642,
+            41.538,
+            251.099
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -17.61,
+            177.454,
+            167.427
+        ]
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "label": "bed",
+        "centroid_xyz": [
+            -80.847,
+            44.908,
+            259.57
+        ]
+    },
+    {
+        "label": "bed",
+        "centroid_xyz": [
+            137.029,
+            46.545,
+            289.955
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            197.131,
+            69.343,
+            98.034
+        ]
+    },
+    {
+        "label": "shelf",
+        "centroid_xyz": [
+            189.495,
+            114.08,
+            165.676
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -93.179,
+            64.967,
+            117.332
+        ]
+    },
+    {
+        "label": "shelf",
+        "centroid_xyz": [
+            -85.399,
+            110.452,
+            51.12
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            13.456,
+            59.24,
+            350.002
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            42.282,
+            51.94,
+            301.028
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xyz": [
+            7.387,
+            115.695,
+            355.901
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xyz": [
+            6.111,
+            115.533,
+            375.321
+        ]
+    }
+]

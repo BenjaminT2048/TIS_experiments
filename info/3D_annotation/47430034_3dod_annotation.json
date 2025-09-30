@@ -1,0 +1,130 @@
+[
+    {
+        "label": "bed",
+        "centroid_xyz": [
+            -33.558,
+            120.677,
+            40.286
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -38.323,
+            144.942,
+            217.273
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            42.559,
+            79.369,
+            -42.684
+        ]
+    },
+    {
+        "label": "stool",
+        "centroid_xyz": [
+            38.614,
+            65.093,
+            -45.435
+        ]
+    },
+    {
+        "label": "shelf",
+        "centroid_xyz": [
+            229.587,
+            133.648,
+            -43.524
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            230.416,
+            82.395,
+            80.312
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            243.054,
+            93.978,
+            230.639
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xyz": [
+            244.242,
+            173.621,
+            243.428
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            223.074,
+            93.499,
+            53.865
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            219.079,
+            93.499,
+            105.683
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            18.754,
+            77.93,
+            -104.461
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            -54.354,
+            77.93,
+            -177.085
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            -34.265,
+            86.2,
+            -391.369
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -4.889,
+            87.392,
+            -361.681
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            208.59,
+            69.565,
+            -331.572
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            200.582,
+            141.522,
+            -485.375
+        ]
+    }
+]

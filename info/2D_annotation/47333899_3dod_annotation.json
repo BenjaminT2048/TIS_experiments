@@ -1,0 +1,135 @@
+[
+    {
+        "label": "refrigerator",
+        "centroid_xy": [
+            98.0,
+            112.0
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            100.7,
+            70.8
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xy": [
+            99.9,
+            106.0
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xy": [
+            96.7,
+            64.4
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            98.4,
+            72.6
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            112.3,
+            208.8
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            113.5,
+            224.7
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            113.3,
+            208.9
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            10.7,
+            68.6
+        ]
+    },
+    {
+        "label": "shelf",
+        "centroid_xy": [
+            -61.3,
+            82.7
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -59.9,
+            58.6
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -50.5,
+            71.9
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -62.4,
+            221.2
+        ]
+    },
+    {
+        "label": "shelf",
+        "centroid_xy": [
+            -63.4,
+            221.3
+        ]
+    },
+    {
+        "label": "stove",
+        "centroid_xy": [
+            97.1,
+            108.4
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            -21.0,
+            69.8
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            -51.2,
+            67.9
+        ]
+    },
+    {
+        "label": "washer",
+        "centroid_xy": [
+            5.0,
+            71.3
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -104.3,
+            84.0
+        ]
+    }
+]

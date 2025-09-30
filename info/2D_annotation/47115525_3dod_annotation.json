@@ -1,0 +1,51 @@
+[
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            -183.8,
+            61.6
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            10.9,
+            60.7
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            -29.5,
+            41.1
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            194.8,
+            65.0
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xy": [
+            197.3,
+            140.0
+        ]
+    },
+    {
+        "label": "fireplace",
+        "centroid_xy": [
+            176.9,
+            76.2
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            214.8,
+            63.8
+        ]
+    }
+]

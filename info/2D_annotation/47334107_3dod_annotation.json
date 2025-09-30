@@ -1,0 +1,65 @@
+[
+    {
+        "label": "washer",
+        "centroid_xy": [
+            5.5,
+            58.5
+        ]
+    },
+    {
+        "label": "toilet",
+        "centroid_xy": [
+            65.5,
+            38.9
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            12.3,
+            192.8
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            95.8,
+            65.0
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xy": [
+            94.8,
+            101.2
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            113.3,
+            153.7
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            97.9,
+            188.3
+        ]
+    },
+    {
+        "label": "bathtub",
+        "centroid_xy": [
+            19.3,
+            46.5
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            -316.3,
+            55.5
+        ]
+    }
+]

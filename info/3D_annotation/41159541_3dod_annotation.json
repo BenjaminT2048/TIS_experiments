@@ -1,0 +1,130 @@
+[
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            40.499,
+            155.747,
+            148.139
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            -36.731,
+            160.273,
+            308.084
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            -209.748,
+            158.006,
+            -28.402
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -135.245,
+            169.279,
+            64.039
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -156.518,
+            171.369,
+            4.154
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -165.042,
+            170.653,
+            -46.459
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -138.645,
+            168.074,
+            127.459
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -240.015,
+            171.302,
+            93.448
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -260.716,
+            172.728,
+            44.303
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -277.876,
+            172.564,
+            -48.306
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -275.028,
+            172.423,
+            -94.582
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            -160.806,
+            142.124,
+            324.389
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            -268.203,
+            145.96,
+            283.735
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xyz": [
+            -270.629,
+            206.96,
+            284.413
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -367.537,
+            215.947,
+            -125.086
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -85.553,
+            162.629,
+            388.082
+        ]
+    }
+]

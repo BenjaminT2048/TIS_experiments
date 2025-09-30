@@ -1,0 +1,58 @@
+[
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            139.8,
+            51.8
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            -59.1,
+            51.6
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            288.2,
+            55.8
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            274.7,
+            52.1
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xy": [
+            272.9,
+            113.9
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -86.0,
+            48.4
+        ]
+    },
+    {
+        "label": "shelf",
+        "centroid_xy": [
+            -86.0,
+            119.6
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            114.0,
+            58.9
+        ]
+    }
+]

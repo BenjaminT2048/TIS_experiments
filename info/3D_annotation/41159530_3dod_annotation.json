@@ -1,0 +1,74 @@
+[
+    {
+        "label": "table",
+        "centroid_xyz": [
+            -305.184,
+            51.553,
+            156.316
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            64.481,
+            57.712,
+            222.609
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            92.106,
+            190.133,
+            242.131
+        ]
+    },
+    {
+        "label": "shelf",
+        "centroid_xyz": [
+            31.277,
+            172.704,
+            137.546
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -226.092,
+            60.837,
+            277.271
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xyz": [
+            -195.802,
+            53.969,
+            324.445
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xyz": [
+            20.057,
+            90.994,
+            148.5
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -52.15,
+            56.693,
+            24.873
+        ]
+    },
+    {
+        "label": "shelf",
+        "centroid_xyz": [
+            -70.986,
+            104.296,
+            -51.366
+        ]
+    }
+]

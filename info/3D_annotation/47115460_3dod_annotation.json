@@ -1,0 +1,114 @@
+[
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            263.956,
+            226.622,
+            -270.807
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xyz": [
+            261.492,
+            226.983,
+            -206.446
+        ]
+    },
+    {
+        "label": "stove",
+        "centroid_xyz": [
+            261.492,
+            273.822,
+            -206.446
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            253.907,
+            227.093,
+            -20.403
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            278.078,
+            355.002,
+            -318.301
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            265.307,
+            355.145,
+            -16.075
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            128.878,
+            227.098,
+            -341.304
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            54.108,
+            353.882,
+            -356.299
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xyz": [
+            147.333,
+            264.349,
+            -347.609
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xyz": [
+            182.081,
+            264.349,
+            -346.148
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            44.434,
+            226.885,
+            -147.477
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            81.319,
+            218.414,
+            2.895
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            121.278,
+            220.218,
+            19.951
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            74.733,
+            220.218,
+            -36.925
+        ]
+    }
+]

@@ -1,0 +1,163 @@
+[
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -101.1,
+            77.3
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            53.2,
+            65.0
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            287.2,
+            58.6
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            300.6,
+            69.6
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            327.0,
+            120.3
+        ]
+    },
+    {
+        "label": "fireplace",
+        "centroid_xy": [
+            178.4,
+            100.4
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            1.4,
+            67.7
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xy": [
+            8.4,
+            191.8
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -111.8,
+            106.7
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            -114.7,
+            70.2
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            68.0,
+            46.8
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            165.3,
+            76.9
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            164.5,
+            68.6
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            25.2,
+            54.6
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            64.4,
+            63.2
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            57.2,
+            63.2
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            -11.7,
+            63.2
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            -10.8,
+            63.2
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -130.4,
+            62.8
+        ]
+    },
+    {
+        "label": "dishwasher",
+        "centroid_xy": [
+            -78.9,
+            62.8
+        ]
+    },
+    {
+        "label": "refrigerator",
+        "centroid_xy": [
+            -276.9,
+            128.0
+        ]
+    },
+    {
+        "label": "bed",
+        "centroid_xy": [
+            -480.1,
+            45.4
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -529.1,
+            73.7
+        ]
+    }
+]

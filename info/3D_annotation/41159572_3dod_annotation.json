@@ -1,0 +1,90 @@
+[
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            -95.776,
+            170.906,
+            177.636
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            -307.456,
+            178.858,
+            20.863
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            -11.374,
+            172.316,
+            -20.826
+        ]
+    },
+    {
+        "label": "fireplace",
+        "centroid_xyz": [
+            20.3,
+            190.56,
+            -124.491
+        ]
+    },
+    {
+        "label": "shelf",
+        "centroid_xyz": [
+            -120.855,
+            373.334,
+            -266.517
+        ]
+    },
+    {
+        "label": "shelf",
+        "centroid_xyz": [
+            -250.42,
+            501.629,
+            -362.996
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            -374.03,
+            180.919,
+            -180.188
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            -249.129,
+            159.516,
+            -73.451
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -490.753,
+            304.149,
+            -68.146
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            -469.426,
+            164.773,
+            -70.996
+        ]
+    },
+    {
+        "label": "stool",
+        "centroid_xyz": [
+            -281.185,
+            160.567,
+            -163.848
+        ]
+    }
+]

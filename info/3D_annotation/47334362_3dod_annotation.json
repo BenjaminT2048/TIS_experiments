@@ -1,0 +1,58 @@
+[
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            106.69,
+            61.387,
+            41.843
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            199.614,
+            44.819,
+            173.51
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xyz": [
+            205.365,
+            97.227,
+            169.38
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            94.668,
+            61.513,
+            296.64
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            -71.721,
+            70.905,
+            178.729
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            -199.544,
+            47.318,
+            -83.659
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -191.756,
+            143.139,
+            19.427
+        ]
+    }
+]

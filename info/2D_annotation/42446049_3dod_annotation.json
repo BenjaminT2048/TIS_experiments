@@ -1,0 +1,93 @@
+[
+    {
+        "label": "refrigerator",
+        "centroid_xy": [
+            91.6,
+            102.1
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            114.3,
+            186.4
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            99.5,
+            55.9
+        ]
+    },
+    {
+        "label": "washer",
+        "centroid_xy": [
+            100.6,
+            55.9
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            104.9,
+            55.8
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            31.4,
+            56.4
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xy": [
+            48.5,
+            94.8
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xy": [
+            19.0,
+            94.8
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -46.2,
+            56.3
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xy": [
+            -46.1,
+            53.7
+        ]
+    },
+    {
+        "label": "stove",
+        "centroid_xy": [
+            -46.5,
+            102.1
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -47.5,
+            56.8
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -61.7,
+            186.9
+        ]
+    }
+]

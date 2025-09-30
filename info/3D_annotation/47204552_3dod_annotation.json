@@ -1,0 +1,194 @@
+[
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            244.062,
+            85.989,
+            13.815
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            241.938,
+            107.515,
+            -92.525
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            239.962,
+            86.02,
+            -198.72
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xyz": [
+            263.498,
+            201.228,
+            -89.841
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            147.121,
+            80.459,
+            201.109
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            195.291,
+            146.813,
+            -538.029
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            75.052,
+            219.751,
+            -534.916
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            75.007,
+            84.168,
+            -535.383
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -43.13,
+            146.815,
+            -531.419
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xyz": [
+            105.518,
+            157.108,
+            -535.458
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xyz": [
+            45.271,
+            157.108,
+            -534.501
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            105.206,
+            86.703,
+            -278.833
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            40.906,
+            86.729,
+            -376.81
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xyz": [
+            116.591,
+            120.935,
+            -198.194
+        ]
+    },
+    {
+        "label": "stove",
+        "centroid_xyz": [
+            110.777,
+            130.721,
+            -365.846
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            37.213,
+            83.284,
+            -316.748
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            38.468,
+            83.285,
+            -265.796
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            39.785,
+            83.287,
+            -212.362
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            90.63,
+            79.206,
+            -0.659
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            56.709,
+            86.17,
+            43.781
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            140.65,
+            86.192,
+            39.006
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            127.069,
+            86.28,
+            -41.332
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            54.112,
+            86.193,
+            -43.562
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xyz": [
+            117.322,
+            120.936,
+            -168.524
+        ]
+    }
+]

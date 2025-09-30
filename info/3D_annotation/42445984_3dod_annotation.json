@@ -1,0 +1,138 @@
+[
+    {
+        "label": "table",
+        "centroid_xyz": [
+            5.61,
+            58.055,
+            61.172
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -146.369,
+            66.216,
+            38.625
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -85.186,
+            66.224,
+            33.251
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -31.539,
+            66.224,
+            24.818
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            26.583,
+            66.224,
+            24.911
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            76.854,
+            66.224,
+            11.2
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -176.354,
+            68.135,
+            98.702
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -123.439,
+            68.135,
+            141.355
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -44.423,
+            68.135,
+            116.947
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            38.169,
+            68.511,
+            110.672
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -174.206,
+            68.869,
+            -44.965
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -223.821,
+            68.869,
+            -35.878
+        ]
+    },
+    {
+        "label": "fireplace",
+        "centroid_xyz": [
+            37.219,
+            86.748,
+            220.43
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            160.897,
+            68.443,
+            96.093
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -300.076,
+            54.763,
+            -285.335
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            119.033,
+            54.362,
+            -107.464
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -303.289,
+            155.122,
+            -296.078
+        ]
+    }
+]

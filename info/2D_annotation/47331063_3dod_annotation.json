@@ -1,0 +1,149 @@
+[
+    {
+        "label": "bed",
+        "centroid_xy": [
+            43.3,
+            37.5
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xy": [
+            180.3,
+            137.3
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            177.8,
+            53.0
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xy": [
+            187.9,
+            111.8
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            92.3,
+            61.7
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            168.2,
+            62.7
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            -21.2,
+            50.7
+        ]
+    },
+    {
+        "label": "refrigerator",
+        "centroid_xy": [
+            188.7,
+            92.9
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            189.8,
+            219.6
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            84.2,
+            200.7
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            31.7,
+            200.7
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            45.0,
+            57.2
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            87.0,
+            56.8
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            127.5,
+            92.8
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xy": [
+            127.7,
+            50.5
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xy": [
+            45.5,
+            91.7
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            45.4,
+            200.6
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -160.0,
+            50.9
+        ]
+    },
+    {
+        "label": "stove",
+        "centroid_xy": [
+            126.9,
+            100.2
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xy": [
+            -157.8,
+            88.0
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -132.9,
+            248.7
+        ]
+    }
+]

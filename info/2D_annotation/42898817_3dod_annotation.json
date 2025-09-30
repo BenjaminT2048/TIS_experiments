@@ -1,0 +1,37 @@
+[
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -90.2,
+            73.8
+        ]
+    },
+    {
+        "label": "washer",
+        "centroid_xy": [
+            30.3,
+            55.8
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            33.9,
+            45.9
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xy": [
+            32.7,
+            91.7
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            29.9,
+            72.1
+        ]
+    }
+]

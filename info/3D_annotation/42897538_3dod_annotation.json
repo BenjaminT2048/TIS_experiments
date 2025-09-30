@@ -1,0 +1,122 @@
+[
+    {
+        "label": "refrigerator",
+        "centroid_xyz": [
+            264.176,
+            136.859,
+            -159.336
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            309.955,
+            90.635,
+            -123.993
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xyz": [
+            356.527,
+            90.842,
+            -84.775
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            396.915,
+            88.33,
+            -47.161
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            385.449,
+            90.863,
+            47.713
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            319.618,
+            224.854,
+            -134.399
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            425.447,
+            223.117,
+            -38.134
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            129.35,
+            85.305,
+            -272.617
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            60.788,
+            66.133,
+            -353.133
+        ]
+    },
+    {
+        "label": "stool",
+        "centroid_xyz": [
+            -76.862,
+            66.298,
+            -200.793
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            -183.282,
+            92.35,
+            67.721
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            -108.199,
+            70.939,
+            -16.122
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            74.87,
+            66.796,
+            84.535
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xyz": [
+            72.994,
+            128.433,
+            78.941
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            146.025,
+            68.641,
+            8.454
+        ]
+    }
+]

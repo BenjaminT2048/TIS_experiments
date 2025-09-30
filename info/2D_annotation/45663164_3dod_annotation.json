@@ -1,0 +1,93 @@
+[
+    {
+        "label": "chair",
+        "centroid_xy": [
+            68.5,
+            77.6
+        ]
+    },
+    {
+        "label": "refrigerator",
+        "centroid_xy": [
+            -119.6,
+            119.0
+        ]
+    },
+    {
+        "label": "dishwasher",
+        "centroid_xy": [
+            -124.0,
+            71.7
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xy": [
+            -126.9,
+            107.2
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -127.8,
+            72.1
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -78.6,
+            72.5
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xy": [
+            -27.2,
+            70.7
+        ]
+    },
+    {
+        "label": "stove",
+        "centroid_xy": [
+            -28.0,
+            114.8
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            23.1,
+            72.7
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            74.4,
+            73.9
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -111.5,
+            197.0
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            20.0,
+            197.9
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xy": [
+            -112.2,
+            230.0
+        ]
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "label": "bed",
+        "centroid_xyz": [
+            188.096,
+            59.737,
+            -143.001
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            162.893,
+            62.43,
+            -279.238
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -43.252,
+            146.985,
+            -182.829
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -29.695,
+            146.922,
+            -45.218
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            64.452,
+            62.811,
+            -297.958
+        ]
+    }
+]

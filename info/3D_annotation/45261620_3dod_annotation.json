@@ -1,0 +1,34 @@
+[
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            119.317,
+            47.795,
+            -30.296
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            29.133,
+            47.801,
+            70.091
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            38.767,
+            46.367,
+            290.505
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xyz": [
+            277.638,
+            151.5,
+            132.369
+        ]
+    }
+]

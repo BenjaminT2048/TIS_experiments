@@ -1,0 +1,170 @@
+[
+    {
+        "label": "bed",
+        "centroid_xyz": [
+            43.294,
+            37.505,
+            146.162
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xyz": [
+            180.257,
+            137.27,
+            151.303
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            177.829,
+            52.955,
+            14.841
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xyz": [
+            187.867,
+            111.769,
+            14.014
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            92.264,
+            61.734,
+            5.985
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            168.248,
+            62.705,
+            -70.585
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            -21.216,
+            50.706,
+            -14.008
+        ]
+    },
+    {
+        "label": "refrigerator",
+        "centroid_xyz": [
+            188.741,
+            92.92,
+            -151.161
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            189.785,
+            219.625,
+            -164.478
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            84.183,
+            200.746,
+            -168.655
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            31.697,
+            200.731,
+            -88.856
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            45.003,
+            57.206,
+            -84.747
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            86.957,
+            56.802,
+            -155.987
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            127.547,
+            92.764,
+            -154.307
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xyz": [
+            127.652,
+            50.53,
+            -153.3
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xyz": [
+            45.514,
+            91.715,
+            -130.377
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            45.38,
+            200.619,
+            -162.727
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -160.047,
+            50.911,
+            -83.012
+        ]
+    },
+    {
+        "label": "stove",
+        "centroid_xyz": [
+            126.875,
+            100.187,
+            -156.75
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xyz": [
+            -157.756,
+            87.957,
+            -82.901
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -132.907,
+            248.724,
+            12.962
+        ]
+    }
+]

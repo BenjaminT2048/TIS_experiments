@@ -1,0 +1,79 @@
+[
+    {
+        "label": "chair",
+        "centroid_xy": [
+            113.6,
+            129.9
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            90.9,
+            130.9
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            55.7,
+            130.2
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            -24.9,
+            130.0
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            -11.6,
+            132.3
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            29.9,
+            132.5
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            22.3,
+            135.8
+        ]
+    },
+    {
+        "label": "stool",
+        "centroid_xy": [
+            -230.3,
+            107.4
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            5.3,
+            125.3
+        ]
+    },
+    {
+        "label": "refrigerator",
+        "centroid_xy": [
+            -250.5,
+            127.9
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -82.1,
+            196.8
+        ]
+    }
+]

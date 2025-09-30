@@ -1,0 +1,247 @@
+[
+    {
+        "label": "table",
+        "centroid_xy": [
+            -623.8,
+            132.0
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -197.5,
+            140.1
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -208.1,
+            255.2
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            32.0,
+            138.7
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            14.3,
+            142.4
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            -63.5,
+            143.7
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            -59.2,
+            144.2
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            -69.1,
+            144.6
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            -83.6,
+            143.6
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            -74.2,
+            145.5
+        ]
+    },
+    {
+        "label": "refrigerator",
+        "centroid_xy": [
+            -168.0,
+            186.9
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            14.0,
+            142.3
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -86.3,
+            141.0
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xy": [
+            142.0,
+            133.0
+        ]
+    },
+    {
+        "label": "stove",
+        "centroid_xy": [
+            142.0,
+            177.1
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            211.6,
+            141.2
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xy": [
+            -88.2,
+            203.8
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -88.2,
+            275.0
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -167.8,
+            303.2
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -44.7,
+            278.3
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            245.5,
+            278.3
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            147.8,
+            295.8
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            247.3,
+            141.5
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xy": [
+            248.7,
+            172.8
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xy": [
+            249.9,
+            174.2
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            258.4,
+            278.8
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            -153.3,
+            140.4
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            -125.6,
+            132.6
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -9.1,
+            149.3
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xy": [
+            156.8,
+            189.0
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            112.3,
+            142.9
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            -273.8,
+            136.9
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -393.7,
+            139.4
+        ]
+    },
+    {
+        "label": "washer",
+        "centroid_xy": [
+            -381.6,
+            139.4
+        ]
+    },
+    {
+        "label": "washer",
+        "centroid_xy": [
+            -372.8,
+            139.4
+        ]
+    }
+]

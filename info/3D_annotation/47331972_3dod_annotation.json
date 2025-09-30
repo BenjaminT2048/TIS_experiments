@@ -1,0 +1,186 @@
+[
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -101.088,
+            77.344,
+            -54.809
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            53.214,
+            65.017,
+            -19.952
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            287.228,
+            58.597,
+            -52.895
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            300.636,
+            69.645,
+            30.831
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            326.984,
+            120.315,
+            415.255
+        ]
+    },
+    {
+        "label": "fireplace",
+        "centroid_xyz": [
+            178.379,
+            100.408,
+            429.148
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            1.414,
+            67.653,
+            428.033
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xyz": [
+            8.373,
+            191.778,
+            444.68
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -111.808,
+            106.677,
+            430.225
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            -114.71,
+            70.155,
+            206.611
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            68.03,
+            46.767,
+            113.435
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            165.265,
+            76.931,
+            -138.876
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            164.481,
+            68.574,
+            -192.183
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            25.155,
+            54.648,
+            -300.042
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            64.366,
+            63.187,
+            -319.755
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            57.179,
+            63.187,
+            -264.135
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -11.69,
+            63.187,
+            -338.804
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -10.819,
+            63.187,
+            -263.322
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -130.352,
+            62.779,
+            -449.074
+        ]
+    },
+    {
+        "label": "dishwasher",
+        "centroid_xyz": [
+            -78.879,
+            62.779,
+            -452.33
+        ]
+    },
+    {
+        "label": "refrigerator",
+        "centroid_xyz": [
+            -276.86,
+            128.042,
+            -142.829
+        ]
+    },
+    {
+        "label": "bed",
+        "centroid_xyz": [
+            -480.102,
+            45.413,
+            -355.754
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -529.063,
+            73.724,
+            423.476
+        ]
+    }
+]

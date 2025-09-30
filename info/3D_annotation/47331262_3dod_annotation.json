@@ -1,0 +1,122 @@
+[
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            51.251,
+            99.48,
+            -194.686
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            201.154,
+            99.73,
+            -93.737
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            208.146,
+            99.73,
+            0.08
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            91.254,
+            73.678,
+            -61.769
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            170.945,
+            109.97,
+            224.421
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            41.237,
+            68.862,
+            229.977
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -88.945,
+            149.31,
+            244.833
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xyz": [
+            36.995,
+            121.653,
+            226.935
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            -146.76,
+            87.974,
+            86.933
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -130.191,
+            96.189,
+            47.817
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -182.704,
+            96.139,
+            43.785
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -216.913,
+            96.697,
+            95.232
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -172.66,
+            96.039,
+            147.517
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -115.537,
+            96.039,
+            136.627
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -43.965,
+            96.939,
+            94.781
+        ]
+    }
+]

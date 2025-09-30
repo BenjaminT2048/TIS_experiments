@@ -1,0 +1,130 @@
+[
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            104.749,
+            57.772,
+            -29.702
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xyz": [
+            148.478,
+            57.772,
+            -12.41
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            241.041,
+            57.95,
+            25.94
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xyz": [
+            264.994,
+            95.057,
+            34.757
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xyz": [
+            240.59,
+            98.469,
+            20.459
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            303.832,
+            57.933,
+            145.384
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            339.592,
+            167.987,
+            54.767
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            298.528,
+            190.465,
+            188.941
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            271.53,
+            190.489,
+            230.21
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            174.541,
+            190.415,
+            201.018
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            79.692,
+            122.368,
+            144.8
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            177.069,
+            57.51,
+            189.636
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            -109.607,
+            49.988,
+            -18.725
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            -145.453,
+            51.051,
+            -191.292
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xyz": [
+            -334.368,
+            31.341,
+            -44.419
+        ]
+    },
+    {
+        "label": "stove",
+        "centroid_xyz": [
+            146.2,
+            105.812,
+            -15.359
+        ]
+    }
+]

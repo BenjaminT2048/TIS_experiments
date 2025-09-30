@@ -1,0 +1,42 @@
+[
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -90.181,
+            73.799,
+            32.593
+        ]
+    },
+    {
+        "label": "washer",
+        "centroid_xyz": [
+            30.337,
+            55.801,
+            -5.799
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            33.903,
+            45.876,
+            -80.308
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xyz": [
+            32.707,
+            91.678,
+            -56.83
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            29.893,
+            72.117,
+            -281.494
+        ]
+    }
+]

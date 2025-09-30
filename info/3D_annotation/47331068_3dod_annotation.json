@@ -1,0 +1,50 @@
+[
+    {
+        "label": "table",
+        "centroid_xyz": [
+            236.275,
+            49.075,
+            -9.689
+        ]
+    },
+    {
+        "label": "bathtub",
+        "centroid_xyz": [
+            237.706,
+            39.679,
+            -123.047
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            118.277,
+            49.511,
+            -87.153
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xyz": [
+            124.74,
+            87.253,
+            -85.734
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            126.065,
+            103.349,
+            -126.179
+        ]
+    },
+    {
+        "label": "toilet",
+        "centroid_xyz": [
+            138.998,
+            34.46,
+            -172.754
+        ]
+    }
+]

@@ -82,7 +82,7 @@ def build_prompt(
         f"Question: {question.strip()}\n"
     )
     if qtype == "mcq":
-        f"Options: {options_text.strip()}\n"
+        prompt += f"Options: {options_text.strip()}\n"
 
 
     if cot:
@@ -170,12 +170,20 @@ def load_obj2d_as_prompt_text(
     decimals: int = 1,
 ) -> Optional[str]:
 
-    import json
+    from decimal import Decimal, getcontext, ROUND_HALF_UP
+    getcontext().prec = 28
 
     def _round_xy(xy, nd):
+        # 忽略 nd，强制两位小数
         try:
-            x, y = float(xy[0]), float(xy[1])
-            return [round(x, nd)*0.01, round(y, nd)*0.01]
+            x_cm, y_cm = Decimal(str(xy[0])), Decimal(str(xy[1]))
+            # 先做单位换算：若原始是厘米 -> 米
+            x_m = (x_cm * Decimal(str(0.01)))  # 通常 scale_to_m=0.01
+            y_m = (y_cm * Decimal(str(0.01)))
+            # 定点量化到两位小数（四舍五入）
+            x_q = x_m.quantize(Decimal("0.000"), rounding=ROUND_HALF_UP)
+            y_q = y_m.quantize(Decimal("0.000"), rounding=ROUND_HALF_UP)
+            return [format(x_q, "f"), format(y_q, "f")]
         except Exception:
             return None
 
@@ -518,6 +526,10 @@ if __name__ == "__main__":
 
 
 # python VSI-Bench/InternVL-8B/pure_info.py --out VSI-Bench/InternVL-8B/results/3.5/route_planning/pure_info.json --qtype route_planning \
+# --model_path OpenGVLab/InternVL3_5-8B
+
+
+# python VSI-Bench/InternVL-8B/pure_info.py --out VSI-Bench/InternVL-8B/results/3.5/object_rel_direction/pure_info.json --qtype object_rel_direction \
 # --model_path OpenGVLab/InternVL3_5-8B
 
 

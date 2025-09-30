@@ -1,0 +1,23 @@
+[
+    {
+        "label": "bathtub",
+        "centroid_xy": [
+            -15.6,
+            59.3
+        ]
+    },
+    {
+        "label": "toilet",
+        "centroid_xy": [
+            -85.7,
+            68.5
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xy": [
+            68.0,
+            103.3
+        ]
+    }
+]

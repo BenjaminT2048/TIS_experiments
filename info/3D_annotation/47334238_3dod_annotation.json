@@ -1,0 +1,122 @@
+[
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            45.45,
+            120.501,
+            4.082
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            208.261,
+            59.436,
+            -107.093
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            371.482,
+            120.727,
+            -80.254
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            211.42,
+            58.148,
+            35.932
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            301.045,
+            66.976,
+            38.958
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            232.333,
+            65.98,
+            -24.435
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            186.276,
+            65.916,
+            -4.412
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            118.059,
+            65.905,
+            28.711
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            201.103,
+            66.468,
+            89.73
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            173.249,
+            66.342,
+            353.325
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            285.206,
+            64.572,
+            372.692
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            363.967,
+            78.614,
+            319.308
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            180.704,
+            47.134,
+            251.027
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            52.536,
+            65.15,
+            266.686
+        ]
+    },
+    {
+        "label": "stool",
+        "centroid_xyz": [
+            -199.574,
+            31.882,
+            139.737
+        ]
+    }
+]

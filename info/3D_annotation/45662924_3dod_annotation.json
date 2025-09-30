@@ -1,0 +1,186 @@
+[
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -47.732,
+            65.616,
+            -276.981
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -78.686,
+            65.641,
+            -28.827
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -51.626,
+            176.573,
+            -277.413
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -112.428,
+            140.646,
+            215.765
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -90.365,
+            216.802,
+            -36.609
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -118.05,
+            215.303,
+            126.046
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -62.091,
+            214.524,
+            -136.281
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xyz": [
+            -60.019,
+            138.934,
+            -164.217
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xyz": [
+            -68.818,
+            138.895,
+            -100.425
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            96.249,
+            67.443,
+            66.149
+        ]
+    },
+    {
+        "label": "fireplace",
+        "centroid_xyz": [
+            287.029,
+            145.802,
+            129.485
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            167.639,
+            60.546,
+            -212.891
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            136.799,
+            61.986,
+            -261.46
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            128.991,
+            60.794,
+            -185.931
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            81.165,
+            62.3,
+            -238.248
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            180.231,
+            62.3,
+            -170.945
+        ]
+    },
+    {
+        "label": "stool",
+        "centroid_xyz": [
+            179.384,
+            57.765,
+            -24.626
+        ]
+    },
+    {
+        "label": "stool",
+        "centroid_xyz": [
+            169.189,
+            57.765,
+            48.982
+        ]
+    },
+    {
+        "label": "stool",
+        "centroid_xyz": [
+            159.091,
+            59.862,
+            127.654
+        ]
+    },
+    {
+        "label": "stool",
+        "centroid_xyz": [
+            151.119,
+            59.499,
+            176.521
+        ]
+    },
+    {
+        "label": "stove",
+        "centroid_xyz": [
+            74.888,
+            112.418,
+            62.833
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            252.087,
+            62.3,
+            -195.436
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            199.702,
+            62.3,
+            -237.658
+        ]
+    }
+]

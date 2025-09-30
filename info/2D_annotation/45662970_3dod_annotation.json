@@ -1,0 +1,58 @@
+[
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -45.9,
+            65.0
+        ]
+    },
+    {
+        "label": "washer",
+        "centroid_xy": [
+            -51.4,
+            63.8
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -50.5,
+            65.3
+        ]
+    },
+    {
+        "label": "washer",
+        "centroid_xy": [
+            -57.1,
+            63.9
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -125.5,
+            65.3
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -96.4,
+            195.1
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -197.4,
+            127.6
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xy": [
+            -50.5,
+            105.5
+        ]
+    }
+]

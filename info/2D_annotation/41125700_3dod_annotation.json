@@ -1,0 +1,121 @@
+[
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -265.1,
+            82.8
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xy": [
+            -255.6,
+            76.1
+        ]
+    },
+    {
+        "label": "stove",
+        "centroid_xy": [
+            -255.6,
+            120.8
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -248.3,
+            83.2
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -279.5,
+            213.4
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -196.6,
+            146.0
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -259.9,
+            213.4
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            17.2,
+            77.4
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            83.7,
+            57.2
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            -21.4,
+            56.6
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            -27.6,
+            55.8
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            -32.8,
+            70.8
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            9.7,
+            87.4
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            -6.0,
+            87.1
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            -73.0,
+            87.3
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            -66.7,
+            85.6
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xy": [
+            -276.2,
+            115.4
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "label": "refrigerator",
+        "centroid_xy": [
+            264.2,
+            136.9
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            310.0,
+            90.6
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xy": [
+            356.5,
+            90.8
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            396.9,
+            88.3
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            385.4,
+            90.9
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            319.6,
+            224.9
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            425.4,
+            223.1
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            129.4,
+            85.3
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            60.8,
+            66.1
+        ]
+    },
+    {
+        "label": "stool",
+        "centroid_xy": [
+            -76.9,
+            66.3
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            -183.3,
+            92.4
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            -108.2,
+            70.9
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            74.9,
+            66.8
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xy": [
+            73.0,
+            128.4
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            146.0,
+            68.6
+        ]
+    }
+]

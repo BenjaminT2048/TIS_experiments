@@ -1,0 +1,114 @@
+[
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            104.7,
+            57.8
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xy": [
+            148.5,
+            57.8
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            241.0,
+            57.9
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xy": [
+            265.0,
+            95.1
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xy": [
+            240.6,
+            98.5
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            303.8,
+            57.9
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            339.6,
+            168.0
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            298.5,
+            190.5
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            271.5,
+            190.5
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            174.5,
+            190.4
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            79.7,
+            122.4
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            177.1,
+            57.5
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            -109.6,
+            50.0
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            -145.5,
+            51.1
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xy": [
+            -334.4,
+            31.3
+        ]
+    },
+    {
+        "label": "stove",
+        "centroid_xy": [
+            146.2,
+            105.8
+        ]
+    }
+]

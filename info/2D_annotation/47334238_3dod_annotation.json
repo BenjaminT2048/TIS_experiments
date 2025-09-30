@@ -1,0 +1,107 @@
+[
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            45.5,
+            120.5
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            208.3,
+            59.4
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            371.5,
+            120.7
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            211.4,
+            58.1
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            301.0,
+            67.0
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            232.3,
+            66.0
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            186.3,
+            65.9
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            118.1,
+            65.9
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            201.1,
+            66.5
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            173.2,
+            66.3
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            285.2,
+            64.6
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            364.0,
+            78.6
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            180.7,
+            47.1
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            52.5,
+            65.2
+        ]
+    },
+    {
+        "label": "stool",
+        "centroid_xy": [
+            -199.6,
+            31.9
+        ]
+    }
+]

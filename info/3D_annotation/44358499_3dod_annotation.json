@@ -1,0 +1,202 @@
+[
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -135.985,
+            62.282,
+            288.056
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            51.995,
+            46.873,
+            268.846
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            -30.443,
+            63.13,
+            379.484
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            1.669,
+            45.064,
+            480.973
+        ]
+    },
+    {
+        "label": "fireplace",
+        "centroid_xyz": [
+            225.914,
+            80.302,
+            422.699
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xyz": [
+            312.987,
+            103.439,
+            277.128
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            -206.2,
+            58.836,
+            47.683
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -224.294,
+            57.625,
+            120.89
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -195.338,
+            58.963,
+            78.802
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -168.981,
+            57.773,
+            38.711
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -131.448,
+            61.705,
+            -56.866
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            45.722,
+            61.972,
+            6.33
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -102.488,
+            128.735,
+            -169.237
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -49.973,
+            68.468,
+            -249.886
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xyz": [
+            -19.48,
+            68.468,
+            -295.074
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            8.606,
+            68.468,
+            -338.091
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            141.023,
+            68.468,
+            -315.944
+        ]
+    },
+    {
+        "label": "washer",
+        "centroid_xyz": [
+            208.405,
+            68.383,
+            -200.002
+        ]
+    },
+    {
+        "label": "dishwasher",
+        "centroid_xyz": [
+            177.433,
+            68.383,
+            -146.663
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            126.844,
+            68.383,
+            -116.284
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xyz": [
+            142.021,
+            105.892,
+            -315.656
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            248.634,
+            175.48,
+            -258.083
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            64.618,
+            197.57,
+            -383.056
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            6.455,
+            198.249,
+            -359.802
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -62.539,
+            196.568,
+            -255.815
+        ]
+    }
+]

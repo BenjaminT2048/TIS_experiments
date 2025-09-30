@@ -1,0 +1,128 @@
+[
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            154.6,
+            295.4
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            226.7,
+            274.2
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xy": [
+            242.9,
+            292.0
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            110.2,
+            267.9
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xy": [
+            121.5,
+            322.0
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xy": [
+            -208.4,
+            265.2
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            307.1,
+            363.1
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            -47.1,
+            293.7
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xy": [
+            -116.2,
+            293.7
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -338.0,
+            297.2
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -243.0,
+            363.5
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -440.7,
+            297.3
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -394.5,
+            296.6
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xy": [
+            -334.5,
+            296.7
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -268.8,
+            296.7
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xy": [
+            -330.7,
+            428.6
+        ]
+    },
+    {
+        "label": "stove",
+        "centroid_xy": [
+            -334.1,
+            343.9
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xy": [
+            -447.4,
+            332.9
+        ]
+    }
+]

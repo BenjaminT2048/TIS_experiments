@@ -1,0 +1,42 @@
+[
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -277.447,
+            58.747,
+            -0.799
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -285.47,
+            157.591,
+            -0.192
+        ]
+    },
+    {
+        "label": "stool",
+        "centroid_xyz": [
+            -260.113,
+            31.451,
+            -85.784
+        ]
+    },
+    {
+        "label": "stool",
+        "centroid_xyz": [
+            -268.866,
+            31.462,
+            -113.52
+        ]
+    },
+    {
+        "label": "sofa",
+        "centroid_xyz": [
+            -33.261,
+            73.438,
+            -378.154
+        ]
+    }
+]

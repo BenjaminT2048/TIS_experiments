@@ -1,0 +1,138 @@
+[
+    {
+        "label": "table",
+        "centroid_xyz": [
+            107.302,
+            64.711,
+            -87.644
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            108.267,
+            64.495,
+            -45.379
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            144.554,
+            64.495,
+            -82.465
+        ]
+    },
+    {
+        "label": "refrigerator",
+        "centroid_xyz": [
+            301.72,
+            94.868,
+            -244.181
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            244.07,
+            64.269,
+            -315.29
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xyz": [
+            216.746,
+            98.637,
+            -343.966
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xyz": [
+            242.928,
+            98.637,
+            -325.409
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            92.548,
+            64.69,
+            -289.423
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xyz": [
+            -6.971,
+            56.754,
+            -186.072
+        ]
+    },
+    {
+        "label": "stove",
+        "centroid_xyz": [
+            -7.788,
+            100.161,
+            -186.859
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -69.725,
+            63.918,
+            -121.918
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -75.797,
+            64.443,
+            -29.393
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            78.778,
+            189.371,
+            -299.289
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -93.027,
+            189.876,
+            -119.879
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xyz": [
+            -100.438,
+            197.436,
+            -22.199
+        ]
+    },
+    {
+        "label": "stool",
+        "centroid_xyz": [
+            -23.466,
+            51.191,
+            -1.014
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            337.895,
+            63.603,
+            -221.281
+        ]
+    }
+]

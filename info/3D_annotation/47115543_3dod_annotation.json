@@ -1,0 +1,90 @@
+[
+    {
+        "label": "table",
+        "centroid_xyz": [
+            -31.877,
+            60.912,
+            -131.113
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -67.588,
+            71.674,
+            -166.339
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -68.111,
+            71.674,
+            -103.44
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            19.923,
+            71.674,
+            -167.966
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            -2.544,
+            71.674,
+            -90.597
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            145.748,
+            69.06,
+            -277.003
+        ]
+    },
+    {
+        "label": "chair",
+        "centroid_xyz": [
+            129.931,
+            67.998,
+            6.356
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xyz": [
+            173.99,
+            130.842,
+            -275.856
+        ]
+    },
+    {
+        "label": "tv_monitor",
+        "centroid_xyz": [
+            159.612,
+            130.342,
+            8.572
+        ]
+    },
+    {
+        "label": "table",
+        "centroid_xyz": [
+            147.933,
+            56.222,
+            9.951
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            161.705,
+            54.866,
+            -273.196
+        ]
+    }
+]

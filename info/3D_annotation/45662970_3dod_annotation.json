@@ -1,0 +1,66 @@
+[
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -45.933,
+            65.038,
+            55.108
+        ]
+    },
+    {
+        "label": "washer",
+        "centroid_xyz": [
+            -51.363,
+            63.837,
+            -13.128
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -50.531,
+            65.342,
+            -80.073
+        ]
+    },
+    {
+        "label": "washer",
+        "centroid_xyz": [
+            -57.101,
+            63.927,
+            -149.53
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -125.482,
+            65.262,
+            -209.738
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -96.411,
+            195.08,
+            -224.698
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            -197.403,
+            127.604,
+            -207.397
+        ]
+    },
+    {
+        "label": "sink",
+        "centroid_xyz": [
+            -50.484,
+            105.452,
+            -72.719
+        ]
+    }
+]

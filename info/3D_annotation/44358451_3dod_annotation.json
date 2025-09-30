@@ -1,0 +1,42 @@
+[
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            93.867,
+            41.247,
+            149.131
+        ]
+    },
+    {
+        "label": "washer",
+        "centroid_xyz": [
+            135.807,
+            51.756,
+            100.576
+        ]
+    },
+    {
+        "label": "cabinet",
+        "centroid_xyz": [
+            135.551,
+            172.186,
+            125.602
+        ]
+    },
+    {
+        "label": "washer",
+        "centroid_xyz": [
+            -54.347,
+            51.359,
+            -110.506
+        ]
+    },
+    {
+        "label": "oven",
+        "centroid_xyz": [
+            18.175,
+            50.918,
+            206.316
+        ]
+    }
+]

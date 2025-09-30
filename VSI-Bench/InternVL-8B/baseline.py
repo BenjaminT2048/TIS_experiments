@@ -188,7 +188,7 @@ def build_prompt(question: str, options_text: str, num_frames: int, qtype: str, 
         f"Question: {question.strip()}\n"
     )
     if qtype == "mcq":
-        f"Options: {options_text.strip()}\n"
+        prompt += f"Options: {options_text.strip()}\n"
     if cot:
         prompt += "You are encourage to show your thinking process. Output exactly your answer in the last line.\n"
     else:
