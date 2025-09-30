@@ -2,92 +2,92 @@
     {
         "label": "cabinet",
         "centroid_xy": [
-            -23.8,
-            158.0
+            -23.847,
+            -135.254
         ]
     },
     {
         "label": "sofa",
         "centroid_xy": [
-            -156.8,
-            79.7
+            -156.78,
+            -113.724
         ]
     },
     {
         "label": "table",
         "centroid_xy": [
-            -166.8,
-            76.1
+            -166.813,
+            111.814
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            -154.9,
-            88.1
+            -154.86,
+            59.114
         ]
     },
     {
         "label": "stool",
         "centroid_xy": [
-            -74.7,
-            57.1
+            -74.716,
+            90.012
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            4.4,
-            92.1
+            4.383,
+            72.261
         ]
     },
     {
         "label": "table",
         "centroid_xy": [
-            57.3,
-            77.6
+            57.327,
+            23.499
         ]
     },
     {
         "label": "stool",
         "centroid_xy": [
-            47.0,
-            54.7
+            46.95,
+            16.911
         ]
     },
     {
         "label": "shelf",
         "centroid_xy": [
-            109.1,
-            95.9
+            109.124,
+            -28.636
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            132.4,
-            58.5
+            132.418,
+            -104.803
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            137.3,
-            117.0
+            137.268,
+            -119.886
         ]
     },
     {
         "label": "tv_monitor",
         "centroid_xy": [
-            11.9,
-            184.5
+            11.945,
+            84.533
         ]
     },
     {
         "label": "sink",
         "centroid_xy": [
-            128.3,
-            77.9
+            128.275,
+            -88.096
         ]
     }
 ]

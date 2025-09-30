@@ -2,50 +2,50 @@
     {
         "label": "table",
         "centroid_xy": [
-            2.2,
-            51.3
+            2.194,
+            109.808
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            10.0,
-            169.1
+            10.026,
+            28.501
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            17.2,
-            222.2
+            17.189,
+            137.755
         ]
     },
     {
         "label": "shelf",
         "centroid_xy": [
-            20.7,
-            169.1
+            20.693,
+            218.458
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            -10.0,
-            52.5
+            -10.014,
+            118.016
         ]
     },
     {
         "label": "tv_monitor",
         "centroid_xy": [
-            16.2,
-            111.1
+            16.214,
+            165.596
         ]
     },
     {
         "label": "stool",
         "centroid_xy": [
-            -144.5,
-            32.5
+            -144.537,
+            231.324
         ]
     }
 ]

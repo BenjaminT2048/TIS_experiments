@@ -2,29 +2,29 @@
     {
         "label": "bed",
         "centroid_xy": [
-            -53.8,
-            73.6
+            -53.821,
+            -19.175
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -175.0,
-            69.6
+            -175.012,
+            -98.661
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            53.6,
-            70.5
+            53.616,
+            -114.869
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            210.2,
-            87.7
+            210.208,
+            -27.859
         ]
     }
 ]

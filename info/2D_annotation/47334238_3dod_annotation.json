@@ -2,106 +2,106 @@
     {
         "label": "cabinet",
         "centroid_xy": [
-            45.5,
-            120.5
+            45.45,
+            4.082
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            208.3,
-            59.4
+            208.261,
+            -107.093
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            371.5,
-            120.7
+            371.482,
+            -80.254
         ]
     },
     {
         "label": "table",
         "centroid_xy": [
-            211.4,
-            58.1
+            211.42,
+            35.932
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            301.0,
-            67.0
+            301.045,
+            38.958
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            232.3,
-            66.0
+            232.333,
+            -24.435
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            186.3,
-            65.9
+            186.276,
+            -4.412
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            118.1,
-            65.9
+            118.059,
+            28.711
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            201.1,
-            66.5
+            201.103,
+            89.73
         ]
     },
     {
         "label": "sofa",
         "centroid_xy": [
-            173.2,
-            66.3
+            173.249,
+            353.325
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            285.2,
-            64.6
+            285.206,
+            372.692
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            364.0,
-            78.6
+            363.967,
+            319.308
         ]
     },
     {
         "label": "table",
         "centroid_xy": [
-            180.7,
-            47.1
+            180.704,
+            251.027
         ]
     },
     {
         "label": "sofa",
         "centroid_xy": [
-            52.5,
-            65.2
+            52.536,
+            266.686
         ]
     },
     {
         "label": "stool",
         "centroid_xy": [
-            -199.6,
-            31.9
+            -199.574,
+            139.737
         ]
     }
 ]

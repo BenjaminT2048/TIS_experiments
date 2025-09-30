@@ -2,29 +2,29 @@
     {
         "label": "bathtub",
         "centroid_xy": [
-            144.1,
-            42.7
+            144.076,
+            33.49
         ]
     },
     {
         "label": "sink",
         "centroid_xy": [
-            82.1,
-            76.5
+            82.057,
+            84.272
         ]
     },
     {
         "label": "washer",
         "centroid_xy": [
-            34.8,
-            54.1
+            34.779,
+            71.683
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -12.2,
-            128.8
+            -12.173,
+            60.214
         ]
     }
 ]

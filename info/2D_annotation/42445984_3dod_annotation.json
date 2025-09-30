@@ -2,120 +2,120 @@
     {
         "label": "table",
         "centroid_xy": [
-            5.6,
-            58.1
+            5.61,
+            61.172
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            -146.4,
-            66.2
+            -146.369,
+            38.625
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            -85.2,
-            66.2
+            -85.186,
+            33.251
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            -31.5,
-            66.2
+            -31.539,
+            24.818
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            26.6,
-            66.2
+            26.583,
+            24.911
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            76.9,
-            66.2
+            76.854,
+            11.2
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            -176.4,
-            68.1
+            -176.354,
+            98.702
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            -123.4,
-            68.1
+            -123.439,
+            141.355
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            -44.4,
-            68.1
+            -44.423,
+            116.947
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            38.2,
-            68.5
+            38.169,
+            110.672
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            -174.2,
-            68.9
+            -174.206,
+            -44.965
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            -223.8,
-            68.9
+            -223.821,
+            -35.878
         ]
     },
     {
         "label": "fireplace",
         "centroid_xy": [
-            37.2,
-            86.7
+            37.219,
+            220.43
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            160.9,
-            68.4
+            160.897,
+            96.093
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -300.1,
-            54.8
+            -300.076,
+            -285.335
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            119.0,
-            54.4
+            119.033,
+            -107.464
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -303.3,
-            155.1
+            -303.289,
+            -296.078
         ]
     }
 ]

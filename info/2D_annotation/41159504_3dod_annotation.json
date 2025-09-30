@@ -2,50 +2,50 @@
     {
         "label": "bathtub",
         "centroid_xy": [
-            150.3,
-            48.2
+            150.344,
+            -134.969
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            13.7,
-            111.2
+            13.698,
+            -0.177
         ]
     },
     {
         "label": "table",
         "centroid_xy": [
-            168.3,
-            51.6
+            168.261,
+            22.874
         ]
     },
     {
         "label": "sink",
         "centroid_xy": [
-            165.5,
-            94.5
+            165.479,
+            23.903
         ]
     },
     {
         "label": "toilet",
         "centroid_xy": [
-            268.9,
-            57.8
+            268.894,
+            32.339
         ]
     },
     {
         "label": "bed",
         "centroid_xy": [
-            -235.6,
-            43.7
+            -235.625,
+            -126.831
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -345.6,
-            50.3
+            -345.606,
+            -259.577
         ]
     }
 ]

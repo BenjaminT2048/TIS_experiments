@@ -3,91 +3,91 @@
         "label": "refrigerator",
         "centroid_xy": [
             91.6,
-            102.1
+            -177.395
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            114.3,
-            186.4
+            114.318,
+            -43.551
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            99.5,
-            55.9
+            99.465,
+            -96.614
         ]
     },
     {
         "label": "washer",
         "centroid_xy": [
-            100.6,
-            55.9
+            100.633,
+            -17.555
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            104.9,
-            55.8
+            104.93,
+            33.222
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            31.4,
-            56.4
+            31.439,
+            85.883
         ]
     },
     {
         "label": "sink",
         "centroid_xy": [
-            48.5,
-            94.8
+            48.494,
+            83.561
         ]
     },
     {
         "label": "sink",
         "centroid_xy": [
-            19.0,
-            94.8
+            19.008,
+            84.052
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -46.2,
-            56.3
+            -46.164,
+            35.923
         ]
     },
     {
         "label": "oven",
         "centroid_xy": [
-            -46.1,
-            53.7
+            -46.087,
+            -29.752
         ]
     },
     {
         "label": "stove",
         "centroid_xy": [
-            -46.5,
-            102.1
+            -46.489,
+            -29.749
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -47.5,
-            56.8
+            -47.504,
+            -114.414
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -61.7,
-            186.9
+            -61.713,
+            41.154
         ]
     }
 ]

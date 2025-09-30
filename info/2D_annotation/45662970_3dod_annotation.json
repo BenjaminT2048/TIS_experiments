@@ -2,57 +2,57 @@
     {
         "label": "cabinet",
         "centroid_xy": [
-            -45.9,
-            65.0
+            -45.933,
+            55.108
         ]
     },
     {
         "label": "washer",
         "centroid_xy": [
-            -51.4,
-            63.8
+            -51.363,
+            -13.128
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -50.5,
-            65.3
+            -50.531,
+            -80.073
         ]
     },
     {
         "label": "washer",
         "centroid_xy": [
-            -57.1,
-            63.9
+            -57.101,
+            -149.53
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -125.5,
-            65.3
+            -125.482,
+            -209.738
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -96.4,
-            195.1
+            -96.411,
+            -224.698
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -197.4,
-            127.6
+            -197.403,
+            -207.397
         ]
     },
     {
         "label": "sink",
         "centroid_xy": [
-            -50.5,
-            105.5
+            -50.484,
+            -72.719
         ]
     }
 ]

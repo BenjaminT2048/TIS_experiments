@@ -2,29 +2,29 @@
     {
         "label": "sofa",
         "centroid_xy": [
-            119.3,
-            47.8
+            119.317,
+            -30.296
         ]
     },
     {
         "label": "sofa",
         "centroid_xy": [
-            29.1,
-            47.8
+            29.133,
+            70.091
         ]
     },
     {
         "label": "sofa",
         "centroid_xy": [
-            38.8,
-            46.4
+            38.767,
+            290.505
         ]
     },
     {
         "label": "tv_monitor",
         "centroid_xy": [
-            277.6,
-            151.5
+            277.638,
+            132.369
         ]
     }
 ]

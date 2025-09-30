@@ -2,36 +2,36 @@
     {
         "label": "toilet",
         "centroid_xy": [
-            21.8,
-            51.0
+            21.771,
+            140.475
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -26.4,
-            37.2
+            -26.357,
+            162.815
         ]
     },
     {
         "label": "sink",
         "centroid_xy": [
-            -54.4,
-            88.2
+            -54.447,
+            115.388
         ]
     },
     {
         "label": "bed",
         "centroid_xy": [
-            203.3,
-            42.9
+            203.312,
+            -162.07
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            77.3,
-            35.6
+            77.269,
+            -228.011
         ]
     }
 ]

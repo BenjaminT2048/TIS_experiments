@@ -2,92 +2,92 @@
     {
         "label": "chair",
         "centroid_xy": [
-            68.5,
-            77.6
+            68.518,
+            323.725
         ]
     },
     {
         "label": "refrigerator",
         "centroid_xy": [
-            -119.6,
-            119.0
+            -119.612,
+            193.326
         ]
     },
     {
         "label": "dishwasher",
         "centroid_xy": [
-            -124.0,
-            71.7
+            -124.021,
+            126.263
         ]
     },
     {
         "label": "sink",
         "centroid_xy": [
-            -126.9,
-            107.2
+            -126.938,
+            71.383
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -127.8,
-            72.1
+            -127.818,
+            15.018
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -78.6,
-            72.5
+            -78.574,
+            -95.113
         ]
     },
     {
         "label": "oven",
         "centroid_xy": [
-            -27.2,
-            70.7
+            -27.165,
+            -93.526
         ]
     },
     {
         "label": "stove",
         "centroid_xy": [
-            -28.0,
-            114.8
+            -27.98,
+            -93.546
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            23.1,
-            72.7
+            23.06,
+            -96.646
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            74.4,
-            73.9
+            74.418,
+            8.964
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -111.5,
-            197.0
+            -111.51,
+            -107.939
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
             20.0,
-            197.9
+            -110.581
         ]
     },
     {
         "label": "tv_monitor",
         "centroid_xy": [
-            -112.2,
-            230.0
+            -112.186,
+            192.862
         ]
     }
 ]

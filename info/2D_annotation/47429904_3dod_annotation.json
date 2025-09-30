@@ -2,190 +2,190 @@
     {
         "label": "cabinet",
         "centroid_xy": [
-            -39.5,
-            148.4
+            -39.472,
+            245.805
         ]
     },
     {
         "label": "tv_monitor",
         "centroid_xy": [
-            -59.2,
-            211.2
+            -59.17,
+            225.145
         ]
     },
     {
         "label": "sofa",
         "centroid_xy": [
-            197.5,
-            166.2
+            197.483,
+            10.754
         ]
     },
     {
         "label": "sofa",
         "centroid_xy": [
-            124.2,
-            146.2
+            124.185,
+            156.003
         ]
     },
     {
         "label": "table",
         "centroid_xy": [
-            82.9,
-            149.1
+            82.94,
+            1.353
         ]
     },
     {
         "label": "stool",
         "centroid_xy": [
-            69.3,
-            148.4
+            69.281,
+            113.782
         ]
     },
     {
         "label": "stool",
         "centroid_xy": [
-            99.2,
-            154.4
+            99.224,
+            -119.543
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -93.1,
-            235.9
+            -93.087,
+            -228.584
         ]
     },
     {
         "label": "table",
         "centroid_xy": [
-            -147.9,
-            175.5
+            -147.857,
+            -81.223
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            -215.2,
-            187.6
+            -215.188,
+            -86.941
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            -184.1,
-            186.9
+            -184.108,
+            -136.541
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            -116.3,
-            188.7
+            -116.271,
+            -31.236
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            -71.2,
-            187.7
+            -71.168,
+            -96.697
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            -104.5,
-            186.6
+            -104.473,
+            -157.529
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -5.0,
-            251.1
+            -5.036,
+            -412.706
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            46.2,
-            176.4
+            46.244,
+            -419.085
         ]
     },
     {
         "label": "oven",
         "centroid_xy": [
-            97.8,
-            184.5
+            97.813,
+            -424.245
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            150.2,
-            177.6
+            150.214,
+            -426.483
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            127.5,
-            320.0
+            127.452,
+            -440.681
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            207.0,
-            177.7
+            207.029,
+            -342.104
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            159.3,
-            175.2
+            159.277,
+            -247.26
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            96.5,
-            155.5
+            96.462,
+            -240.304
         ]
     },
     {
         "label": "oven",
         "centroid_xy": [
-            96.4,
-            201.6
+            96.433,
+            -240.726
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            208.5,
-            307.4
+            208.533,
+            -252.972
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            108.7,
-            176.2
+            108.684,
+            -184.712
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            156.3,
-            176.1
+            156.266,
+            -189.719
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            97.6,
-            140.7
+            97.648,
+            -425.647
         ]
     }
 ]

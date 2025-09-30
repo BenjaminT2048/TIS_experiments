@@ -2,92 +2,92 @@
     {
         "label": "sofa",
         "centroid_xy": [
-            -46.4,
-            93.9
+            -46.386,
+            150.459
         ]
     },
     {
         "label": "table",
         "centroid_xy": [
-            90.3,
-            87.9
+            90.323,
+            256.615
         ]
     },
     {
         "label": "sofa",
         "centroid_xy": [
-            205.7,
-            95.6
+            205.728,
+            173.621
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            261.0,
-            90.5
+            260.986,
+            60.347
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            274.8,
-            85.7
+            274.817,
+            -4.317
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            159.7,
-            126.7
+            159.66,
+            16.153
         ]
     },
     {
         "label": "fireplace",
         "centroid_xy": [
-            122.1,
-            119.2
+            122.093,
+            -117.43
         ]
     },
     {
         "label": "tv_monitor",
         "centroid_xy": [
-            284.6,
-            168.7
+            284.612,
+            3.999
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            35.1,
-            95.4
+            35.062,
+            -246.64
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            37.3,
-            237.8
+            37.341,
+            -247.841
         ]
     },
     {
         "label": "table",
         "centroid_xy": [
-            -103.5,
-            92.8
+            -103.457,
+            -112.951
         ]
     },
     {
         "label": "tv_monitor",
         "centroid_xy": [
-            -124.8,
-            149.4
+            -124.752,
+            -111.757
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            -59.8,
-            96.3
+            -59.76,
+            -66.131
         ]
     }
 ]

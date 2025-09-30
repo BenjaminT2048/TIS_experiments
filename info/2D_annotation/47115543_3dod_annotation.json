@@ -2,78 +2,78 @@
     {
         "label": "table",
         "centroid_xy": [
-            -31.9,
-            60.9
+            -31.877,
+            -131.113
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            -67.6,
-            71.7
+            -67.588,
+            -166.339
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            -68.1,
-            71.7
+            -68.111,
+            -103.44
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            19.9,
-            71.7
+            19.923,
+            -167.966
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            -2.5,
-            71.7
+            -2.544,
+            -90.597
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            145.7,
-            69.1
+            145.748,
+            -277.003
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            129.9,
-            68.0
+            129.931,
+            6.356
         ]
     },
     {
         "label": "tv_monitor",
         "centroid_xy": [
-            174.0,
-            130.8
+            173.99,
+            -275.856
         ]
     },
     {
         "label": "tv_monitor",
         "centroid_xy": [
-            159.6,
-            130.3
+            159.612,
+            8.572
         ]
     },
     {
         "label": "table",
         "centroid_xy": [
-            147.9,
-            56.2
+            147.933,
+            9.951
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            161.7,
-            54.9
+            161.705,
+            -273.196
         ]
     }
 ]

@@ -2,50 +2,50 @@
     {
         "label": "bed",
         "centroid_xy": [
-            106.3,
-            76.0
+            106.262,
+            199.962
         ]
     },
     {
         "label": "table",
         "centroid_xy": [
-            -13.0,
-            77.6
+            -12.985,
+            276.601
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -91.2,
-            90.4
+            -91.184,
+            136.945
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            299.6,
-            83.8
+            299.634,
+            295.506
         ]
     },
     {
         "label": "shelf",
         "centroid_xy": [
-            299.7,
-            165.9
+            299.676,
+            295.307
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            193.4,
-            81.0
+            193.443,
+            -96.547
         ]
     },
     {
         "label": "stool",
         "centroid_xy": [
-            155.6,
-            74.3
+            155.585,
+            -22.408
         ]
     }
 ]

@@ -2,36 +2,36 @@
     {
         "label": "sofa",
         "centroid_xy": [
-            -180.4,
-            57.0
+            -180.376,
+            -52.234
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            70.3,
-            116.1
+            70.335,
+            -202.14
         ]
     },
     {
         "label": "table",
         "centroid_xy": [
-            56.8,
-            60.0
+            56.81,
+            127.407
         ]
     },
     {
         "label": "chair",
         "centroid_xy": [
-            121.7,
-            63.5
+            121.701,
+            177.797
         ]
     },
     {
         "label": "fireplace",
         "centroid_xy": [
-            -76.4,
-            89.3
+            -76.408,
+            -195.901
         ]
     }
 ]

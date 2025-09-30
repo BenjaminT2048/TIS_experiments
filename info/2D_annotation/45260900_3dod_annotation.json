@@ -2,22 +2,22 @@
     {
         "label": "bathtub",
         "centroid_xy": [
-            -15.6,
-            59.3
+            -15.553,
+            33.054
         ]
     },
     {
         "label": "toilet",
         "centroid_xy": [
-            -85.7,
-            68.5
+            -85.738,
+            147.43
         ]
     },
     {
         "label": "sink",
         "centroid_xy": [
-            68.0,
-            103.3
+            68.044,
+            -55.639
         ]
     }
 ]

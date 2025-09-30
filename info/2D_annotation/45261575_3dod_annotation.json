@@ -2,43 +2,43 @@
     {
         "label": "bed",
         "centroid_xy": [
-            -181.9,
-            46.5
+            -181.883,
+            -146.594
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -185.0,
-            113.4
+            -185.039,
+            24.238
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -120.1,
-            56.4
+            -120.132,
+            26.756
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            -5.7,
-            78.7
+            -5.732,
+            -215.566
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            0.8,
-            57.2
+            0.839,
+            -134.221
         ]
     },
     {
         "label": "tv_monitor",
         "centroid_xy": [
-            3.7,
-            117.7
+            3.723,
+            -135.181
         ]
     }
 ]

@@ -2,36 +2,36 @@
     {
         "label": "cabinet",
         "centroid_xy": [
-            -90.2,
-            73.8
+            -90.181,
+            32.593
         ]
     },
     {
         "label": "washer",
         "centroid_xy": [
-            30.3,
-            55.8
+            30.337,
+            -5.799
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            33.9,
-            45.9
+            33.903,
+            -80.308
         ]
     },
     {
         "label": "sink",
         "centroid_xy": [
-            32.7,
-            91.7
+            32.707,
+            -56.83
         ]
     },
     {
         "label": "cabinet",
         "centroid_xy": [
-            29.9,
-            72.1
+            29.893,
+            -281.494
         ]
     }
 ]
